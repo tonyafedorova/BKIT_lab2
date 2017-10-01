@@ -21,7 +21,7 @@ namespace lab2
         public static class STATE
         {
             public const String Rectangle = "1";
-            public const String Sqare = "2";
+            public const String Square = "2";
             public const String Circle = "3";
         }
 
@@ -51,7 +51,7 @@ namespace lab2
                         obj.Print();
                         break;
 
-                    case STATE.Sqare:
+                    case STATE.Square:
                         a1 = InputVal("Введите высоту квадрата \n");
                         obj = new Quadrate(a1);
                         obj.Print();
